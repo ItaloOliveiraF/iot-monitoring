@@ -1,11 +1,13 @@
 <template>
     <div>
-        <Card>
+        <Card >
             <template #title>
                 {{location}}
             </template>
             <template #content>
-                <slot></slot>
+                <div class="section-card-content">
+                    <slot></slot>
+                </div>
             </template>
         </Card>
     </div>
@@ -18,5 +20,8 @@
 </script>
 
 <style scoped>
-
+    .section-card-content{
+        display: flex;
+        gap: 2rem;
+    }
 </style>
