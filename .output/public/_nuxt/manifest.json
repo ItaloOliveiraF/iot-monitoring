@@ -1,0 +1,54 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-e9dcc743.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "virtual:nuxt:C:/Users/wolfe/OneDrive/Documentos/UFRN/mestrado/IoT/iot-monitoring/.nuxt/error-component.mjs"
+    ],
+    "css": [
+      "entry.7bf4b931.css"
+    ],
+    "assets": [
+      "color.473bc8ca.png",
+      "primeicons.c9eaf535.eot",
+      "primeicons.788dba0a.ttf",
+      "primeicons.feb68bf6.woff",
+      "primeicons.2ab98f70.svg"
+    ]
+  },
+  "virtual:nuxt:C:/Users/wolfe/OneDrive/Documentos/UFRN/mestrado/IoT/iot-monitoring/.nuxt/error-component.mjs": {
+    "file": "error-component-f65712ea.mjs",
+    "src": "virtual:nuxt:C:/Users/wolfe/OneDrive/Documentos/UFRN/mestrado/IoT/iot-monitoring/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "error-404-c7e98485.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "error-404.314f7075.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "error-500-454d636a.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "error-500.4e3461e5.css"
+    ]
+  }
+}
